@@ -1,0 +1,15 @@
+{
+  "name": "tinysong",
+  "description": "An API library for Tinysong.com",
+  "version": "0.1.0",
+  "author": "Raine Virta <raine.virta@gmail.com>",
+  "keywords": ["tinysong", "grooveshark", "music"],
+  "main": "lib/tinysong.js",
+  "engines": { "node": ">= 0.8.0" },
+  "dependencies": {
+	"request": "2.x.x"
+  },
+  "devDependencies": {
+	"coffee-script": "1.6.x"
+  }
+}
