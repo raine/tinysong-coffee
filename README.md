@@ -15,8 +15,9 @@ Implements three methods as documented in the official [API documentation](http:
 
     var tinysong = require('tinysong');
 
-    // Get a single result as URL
     tinysong.API_KEY = 'your_api_key_here';
+
+    // Get a single result as URL
     tinysong.a('Fall At Your Feet', function(err, res) {
         // res => http://tinysong.com/1bne7
     });
@@ -27,7 +28,6 @@ Implements three methods as documented in the official [API documentation](http:
     });
 
     // Same as `b` but get multiple results, defaults to 5
-    tinysong.API_KEY = 'your_api_key_here';
     tinysong.s('River Flows In You', 10, function(err, res) {
         // res => [ {…}, {…}, … ]
     });

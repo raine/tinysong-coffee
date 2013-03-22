@@ -1,7 +1,7 @@
 {
   "name": "tinysong",
   "description": "An API library for Tinysong.com",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Raine Virta <raine.virta@gmail.com>",
   "keywords": ["tinysong", "grooveshark", "music"],
   "main": "lib/tinysong.js",
