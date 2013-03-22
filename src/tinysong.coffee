@@ -1,7 +1,5 @@
 request = require 'request'
 
-BASE_URL = 'http://tinysong.com/'
-
 req = (method, query, opts={}, cb) ->
 	if not module.exports.API_KEY
 		throw """
