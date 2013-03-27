@@ -19,7 +19,11 @@ req = (method, query, opts={}, cb) ->
 			if err or json.error?
 				cb (err or json.error)
 			else
-				cb null, json
+				# return null if no results with a single-result method
+				if method in ['a', 'b'] and Array.isArray json
+					cb null, null
+				else
+					cb null, json
 
 module.exports =
 	API_KEY: ''
