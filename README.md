@@ -7,6 +7,8 @@ An API key is required. You can get one from here: [http://tinysong.com/api](htt
 
 Implements three methods as documented in the official [API documentation](http://tinysong.com/api).
 
+See also: [grooveshark-coffee](https://github.com/raneksi/grooveshark-coffee)
+
 ---
 
 ### Installation
