@@ -33,3 +33,10 @@ Implements three methods as documented in the official [API documentation](http:
     tinysong.s('River Flows In You', 10, function(err, res) {
         // res => [ {…}, {…}, … ]
     });
+
+### Note on rate limiting
+
+There's no official documentation on the rate limiting, but it seems to be
+something like a few hundred calls per day, after which the requests will
+return `rate limit exceeded, please contact us at support@grooveshark.com`.
+Therefore Tinysong is not recommended for a huge amount of calls.
